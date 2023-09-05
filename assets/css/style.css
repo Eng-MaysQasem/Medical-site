@@ -327,7 +327,27 @@ choose-us .items .item .content p{
     float: left;
     width: 50%;
 }
+.aptient .item h2{
+   text-transform: capitalize;
+    color: #303030;
+    font-size: 30px;
+    font-weight: 400px;
+}
+.aptient .item p{
+    margin: 30px 0;
+    font-size: 16px;
+    line-height: 1.86rem;
+}
+.aptient .item .list .list-item{
+    margin-bottom: 20px;
+}
+.aptient .item .list .list-item i{
+ color: #00aced;
+ margin-right: 10px;
+}
 /*end aptient*/
+/*start Testimonials*/
+/*end Testimonials*/
 
 
 
