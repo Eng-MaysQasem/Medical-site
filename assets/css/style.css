@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*global class*/
+.container{
+    width: 80%;
+   /* background-color: red;*/
+    margin: auto;
+    overflow: hidden;
+
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 60px;
+    color: #ffff;
+}
+h2{
+    color: #303030;
+    font-size: 38px;
+    font-weight: 400px;
+    text-transform: capitalize;
+}
+body{
+    font-family: 'Fira Sans', sans-serif;
+    color: #686868;
+    
+}
+/*start navbar*/
+.navbarTop{
+    background-color: #f8f8f8;
+    line-height: 40px;
+}
+.navbarTop .contentleft{
+    float: left;
+    width: 50%;
+}
+.navbarTop .contentright{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+.navbarTop .contentright p{
+    float: left;
+    width: 60%;
+    padding-right: 10px;
+    text-align: right;
+    
+}
+.navbarTop .contentright .list{
+    float: left;
+    width: 30%;
+   
+    overflow: hidden;
+}
+.navbarTop .contentright .list .item{
+    float: left;
+    width: 25%;
+    text-align:center;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    
+}
+.navbarTop p{
+    color: #888;
+    font-size: 14px;
+}
+.navbarTop .contentright .list .item a{
+    color:#535353;
+    
+}
+.navbarTop .contentright .list .item a i{padding-right: 10px;}
+.navbarTop .contentright .list .item.first{
+    border-left:solid 2px #eee;
+}
+.navbarTop .contentright .list .item.last{
+    border-right:solid 2px #eee;
+}
+.navbarTop .contentright .list .item.second{
+    border-left: 2px solid #eee;
+    border-right: 2px solid #eee
+}
+.navbarTop .contentright .list .item.third{
+    
+    border-right: 2px solid #eee;
+}
+.navbarTop .contentright .list .item.first:hover{
+background-color:#3b5998;
+border: none;
+}
+.navbarTop .contentright .list .item.second:hover{
+    background-color:#125688;
+    border: none;
+    }
+    .navbarTop .contentright .list .item.third:hover{
+        background-color:#32506d;
+        border: none;
+        }
+        .navbarTop .contentright .list .item.last:hover{
+            background-color:#00aced;
+            border: none;
+            }
+.navbarTop .contentright .list .item:hover a{color: #f8f8f8;}
+/*end navtop*/
+/*start navbar*/
+.navbar .navbar-left{
+    float: left;
+    width: 15%;
+}
+.navbar .navbar-left img{
+    width: 100%;
+    padding-top: 20px;
+}
+.w-100{
+    width: 100%;
+}
+.navbar .navbar-right{
+    float: right;
+    width: 75%;
+    padding-top: 30px;
+    padding-left: 200px;
+    overflow: hidden;
+}
+.navbar .navbar-right .list{
+    width: 90%;
+    float: left;
+    overflow: hidden;
+    
+}
+.navbar .navbar-right .list .serach{
+    width: 10%;
+    float: left;
+}
+.navbar .navbar-right .list .item{
+    cursor: pointer;
+    float: left;
+    width: fit-content;
+  
+    padding: 0px 30px;
+    padding-bottom: 20px;
+}
+.navbar .navbar-right a{
+    color: #888;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.navbar .navbar-right .active {
+
+border-bottom: 2px solid #00aced;
+
+}
+.navbar .navbar-right .active a {
+    color:#00aced;
+}
+.navbar .navbar-right .list .item:hover a{   color:#00aced;}
+
+/*end navbar*/
+/*start header*/
+.header{
+    height: 100vh;
+    background-image: url("../imgs/header.jpg");
+    background-size: cover;
+    position: relative;
+}
+.headercontent{
+    background-attachment: fixed;
+    text-align: center;
+  left:30%;
+    position: absolute;
+    top: 40%;
+    color: #eee;
+}
+.overlay{
+    background-color: #00aced;
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+}
+.headercontent p{
+    margin: 20px 0;
+}
+.headercontent .btn .learn{
+    background-color: #ffff;
+    padding: 12px 14px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: #303030;
+    display: inline-block;
+    margin-right: 10px;
+}
+.headercontent .btn .learn:hover{
+    background-color: #eeeeeed8;
+}
+.headercontent .btn .contact{
+  
+    padding: 10px 14px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: #fff;
+    border: 2px solid #fff;
+    display: inline-block;
+    margin-right: 10px;
+}
+.headercontent .btn .contact:hover{
+    background-color: #fff;
+    color: #303030;
+}
+/*end header*/
+/*start about*/
+.about-img{
+    float: left;
+    width: 50%;
+}
+
+.about-content{
+    float: right;
+    width: 50%;
+    margin-top: 150px;
+}
+.about-content p{
+margin: 20px 0;
+font-size: 15px;
+}
+.about-content h2{
+    font-size: 32px;
+    font-weight: 400px;
+    color: #303030;
+}
+.about-content .list .item span{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #00aced;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    margin-right: 10px;
+}
+.about-content .list .item span i{
+    font-size: 20px;
+}
+.about-content .list .item {
+    margin: 15px 0;
+}
+/*end about*/
+/*start number*/
+.numbers{
+    background-color: #f8f8f8;
+    padding: 20px 0;
+}
+.numbers .item{
+    text-align: center;
+    float: left;
+    width: 25%;
+}
+.numbers .item i{
+    font-size: 52px;
+    color: #00aced;
+    display: inline-block;
+}
+.numbers .item h2{
+    margin: 10px 0;
+}
+
+/*end number*/
+/*start why chhose*/
+.choose-us h2,.choose-us .para{
+    text-align: center;
+
+}
+.choose-us .para{
+    margin: 20px 0;
+}
+.item{
+    overflow: hidden;
+}
+.items{
+    overflow: hidden;
+}
+.choose-us .items .item{
+    float: left;
+    width: 33.3%;
+    margin: 30px 0;
+    overflow: hidden;
+}
+.choose-us .items .item .content{
+    width: 80%;
+    float: left;
+
+}
+.choose-us .items .item .icon{
+    width: 10%;
+    float: left;
+}
+.choose-us .items .item .content h3{
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: #303030;
+}
+choose-us .items .item .content p{
+   
+    font-size: 15px;
+    color: #888;
+}
+
+/*end why chhose*/
+/* start aptient*/
+.aptient{
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+.aptient .item{
+    float: left;
+    width: 50%;
+}
+/*end aptient*/
+
+
+
+
