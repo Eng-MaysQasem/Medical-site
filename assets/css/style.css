@@ -34,6 +34,7 @@ body{
     color: #686868;
     
 }
+
 /*start navbar*/
 .navbarTop{
     background-color: #f8f8f8;
@@ -347,7 +348,81 @@ choose-us .items .item .content p{
 }
 /*end aptient*/
 /*start Testimonials*/
+.testimonials{
+margin: 30px 0;
+}
+.testimonials h2{
+text-align: center;
+}
+.testimonials .para{
+text-align: center;
+margin: 30px 0;
+}
+.testimonials .content {
+    overflow: hidden;
+}
+
+
+.testimonials .content .item{
+    width: 30%;
+display: inline-block;
+}
+.testimonials .content .item h3,
+.testimonials .content .item h4{
+    font-size: 15px;
+    color: #686868;
+    margin: 20px 0 20px 20px;
+    font-family: 400px;
+    
+}
+.testimonials .content .item p{
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+    line-height: 1.86em;
+    position: relative;
+
+}
+.testimonials .content .item p::after{
+    content: '';
+    position: absolute;
+    bottom: -18px;
+    left: 30px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+
+    border-top: 20px solid #125688;
+}
+
 /*end Testimonials*/
+/*start felling*/
+.contact{
+    padding: 10px 14px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: #fff;
+    border: 2px solid #fff;
+    display: inline-block;
+    margin-right: 10px;
+}
+.contact:hover{
+    background-color: #fff;
+    color: #303030;
+}
+.feeling{
+    text-align: center;
+    background-color: #00aced;
+    padding: 50px 0;
+    color: #fff;
+}
+.feeling h2{
+    color: #fff;
+}
+.feeling p{
+    margin: 30px 0;
+}
+
+/*end felling*/
 
 
 
